@@ -1,4 +1,4 @@
-import expresss, { response } from 'express';
+import expresss from 'express';
 import 'reflect-metadata';
 import { ApolloServer } from 'apollo-server-express';
 import { buildSchemaSync } from 'type-graphql';

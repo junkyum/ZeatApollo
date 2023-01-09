@@ -30,6 +30,7 @@ class GameProfile{
 }
 
 @ObjectType()
+
  class Member {
     @Field(type => ID)
     id:string;
